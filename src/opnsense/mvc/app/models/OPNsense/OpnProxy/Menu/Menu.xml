@@ -1,0 +1,7 @@
+<menu>
+    <Services>
+      <OpnProxy VisibleName="OpnSense Proxy" cssClass="fa fa-sitemap fa-fw">
+          <Settings order="10" url="/ui/opnproxy/proxydef/index" />
+      </OpnProxy>
+    </Services>
+</menu>

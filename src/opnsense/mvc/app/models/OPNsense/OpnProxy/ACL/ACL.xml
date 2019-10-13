@@ -1,0 +1,9 @@
+<acl>
+    <page-services-opnproxy>
+        <name>Services: OpnProxy</name>
+        <patterns>
+            <pattern>ui/opnproxy/*</pattern>
+            <pattern>api/opnproxy/*</pattern>
+        </patterns>
+    </page-services-opnproxy>
+</acl>

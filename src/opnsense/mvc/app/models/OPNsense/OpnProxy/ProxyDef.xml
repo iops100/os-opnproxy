@@ -1,0 +1,49 @@
+<model>
+	<mount>//OPNsense/opnproxy/proxydef</mount>
+	<description>Opnsense Package to manage OpnSense Proxy</description>
+	<version>1.0.0</version>
+	<items>
+		<enabled type="BooleanField">
+			<default>0</default>
+			<Required>Y</Required>
+		</enabled>
+		<proxyType type="OptionField">
+			<default>http</default>
+			<OptionValues>
+				<http>HTTP</http>
+				<https>HTTPS</https>
+			</OptionValues>
+			<Required>Y</Required>
+		</proxyType>
+		<httpProxyIP type="TextField">
+			<Required>Y</Required>
+			<default>127.0.0.1</default>
+		</httpProxyIP>
+		<httpProxyPort type="IntegerField">
+			<default>3128</default>
+			<MinimumValue>1</MinimumValue>
+			<MaximumValue>65535</MaximumValue>
+			<Required>Y</Required>
+		</httpProxyPort>
+		<httpsProxyIP type="TextField">
+			<Required>Y</Required>
+			<default>127.0.0.1</default>
+		</httpsProxyIP>
+		<httpsProxyPort type="IntegerField">
+			<default>3128</default>
+			<MinimumValue>1</MinimumValue>
+			<MaximumValue>65535</MaximumValue>
+			<Required>Y</Required>
+		</httpsProxyPort>
+		<ftpProxyIP type="TextField">
+			<Required>Y</Required>
+			<default>127.0.0.1</default>
+		</ftpProxyIP>
+		<ftpProxyPort type="IntegerField">
+			<default>3128</default>
+			<MinimumValue>1</MinimumValue>
+			<MaximumValue>65535</MaximumValue>
+			<Required>Y</Required>
+		</ftpProxyPort>
+	</items>
+</model>

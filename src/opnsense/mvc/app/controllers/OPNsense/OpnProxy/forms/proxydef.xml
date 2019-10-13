@@ -1,0 +1,50 @@
+<form>
+	<field>
+		<label>Enabled</label>
+		<id>proxydef.enabled</id>
+		<help><![CDATA[Enable SockdIOPS service.]]></help>
+		<type>checkbox</type>
+	</field>
+	<field>
+		<label>Proxy Type</label>
+		<id>proxydef.proxyType</id>
+		<help><![CDATA[Select proxy Type : HTTP or HTTPS]]></help>
+		<type>dropdown</type>
+	</field>
+	<field>
+		<label>HTTP</label>
+		<id>proxydef.httpProxyIP</id>
+		<help><![CDATA[IP or FQDN for HTTP Proxy]]></help>
+		<type>text</type>
+	</field>
+	<field>
+		<label>HTTP Proxy Port</label>
+		<id>proxydef.httpProxyPort</id>
+		<help><![CDATA[Port for HTTP Proxy]]></help>
+		<type>text</type>
+	</field>
+	<field>
+		<label>HTTPS</label>
+		<id>proxydef.httpsProxyIP</id>
+		<help><![CDATA[IP or FQDN for HTTPS Proxy]]></help>
+		<type>text</type>
+	</field>
+	<field>
+		<label>HTTPS Proxy Port</label>
+		<id>proxydef.httpsProxyPort</id>
+		<help><![CDATA[Port for HTTPS Proxy]]></help>
+		<type>text</type>
+	</field>
+	<field>
+		<label>FTP</label>
+		<id>proxydef.ftpProxyIP</id>
+		<help><![CDATA[IP or FQDN for FTP Proxy]]></help>
+		<type>text</type>
+	</field>
+	<field>
+		<label>FTP Proxy Port</label>
+		<id>proxydef.ftpProxyPort</id>
+		<help><![CDATA[Port for FTP Proxy]]></help>
+		<type>text</type>
+	</field>
+</form>
